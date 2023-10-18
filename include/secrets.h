@@ -1,13 +1,13 @@
-//#include <pgmspace.h>
- 
+
 #define SECRET
-#define THINGNAME "Pepe"                         //change this
+#define THINGNAME "Pepe"                    //Cambiar
  
 const char WIFI_SSID[] = "";               //Su SSID
 const char WIFI_PASSWORD[] = "";           //Su contrasenia
-const char IOT_ENDPOINT[] = "";       //change this
+const char IOT_ENDPOINT[] = "";            //FQDN del broker 
  
-// CA certificate
+// CA certificate - Copiar todo el texto entre -----BEGIN CERTIFICATE----- y -----END CERTIFICATE----
 static const char CERT_CA[] = R"EOF(
-
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE----
 )EOF";
