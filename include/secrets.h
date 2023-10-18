@@ -1,0 +1,31 @@
+//#include <pgmspace.h>
+ 
+#define SECRET
+#define THINGNAME "Pepe"                         //change this
+ 
+const char WIFI_SSID[] = "Afinador2.4";               //Su SSID
+const char WIFI_PASSWORD[] = "Eugenio10.";           //Su contrasenia
+const char IOT_ENDPOINT[] = "ec2-54-158-150-240.compute-1.amazonaws.com";       //change this
+ 
+// CA certificate
+static const char CERT_CA[] = R"EOF(
+-----BEGIN CERTIFICATE-----
+MIIDBTCCAe0CFGsOr3W8HigOyOoFAhN6gbc0MYOYMA0GCSqGSIb3DQEBCwUAMD8x
+CzAJBgNVBAYTAkFSMQwwCgYDVQQIDANQQkExDjAMBgNVBAcMBVBpbGFyMRIwEAYD
+VQQKDAlUcnVjaGEgQ0EwHhcNMjMwOTA0MDExMjE4WhcNMjQwOTAzMDExMjE4WjA/
+MQswCQYDVQQGEwJBUjEMMAoGA1UECAwDUEJBMQ4wDAYDVQQHDAVQaWxhcjESMBAG
+A1UECgwJVHJ1Y2hhIENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+sdg0dPcrgnMFqx83uuTueeO+0AAPO4bBWYHcD/jLKxamHKYRrEzIM7eARF0rAlHz
+3qsVcfmM/dvQG6uGjPkbVwX++jHufYUgBqpJywEfuZtGY7Nj3JRNun8u4n1hwxNe
+/6DpOf/XLGDPpYAdWwI6wNnmWG4w5wi0UN1+b2JfGKqdk7lwVlKgnTOgFOsYINLH
+slHDeH5Z44QtG4LHp/DlC2ho11wi/C3+wk+UOWTyfBWHHoD8pHODHEsHvYi9a0u9
++mlFJar2lb8TBBy5Xpoy7lOgHdDuvq3RBigvSwwiTHjpx6T0NPyR36xZvYwfjaCZ
+JEM79/SABaMMyCQuMzggRwIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCrDfnJb3M9
+Q7VmPM1BRBK9ycVNaPhWVzrfolYTUS4ynvrmpipRQMVOr8WVySDIXpBPDTemyc14
+00G6vrgeA1tudYhYolB0PT4CPwIipkTOVRYjKPhvv7uJHgFDJOAmkCDm4PYvQHsL
+XqNUtdEVe9pdnPy6j7IqZSMhSxJmoUWCT5SY0KMOv4729WJRHSjGmlhl+Puym+8m
++Wx28uWp+AaB8AVkmc3/qSKbsebOajjG5TUf+dS0927Gu6RNc658lXtdoKBRxdWY
+lxvTJhDR6KyH1+j4MeQvTjiaLtPz5iW3x/C1YSJf1tskcGnkpI/2i040M+NgU1vy
+Lrms4rFb9xln
+-----END CERTIFICATE-----
+)EOF";
